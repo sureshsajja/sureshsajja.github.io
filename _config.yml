@@ -8,7 +8,6 @@ owner:
  email	: mail@sureshsajja.com
  github	: sureshsajja		
 
-email: mail@sureshsajja.com
 
 #url: "http://ec2-52-32-183-180.us-west-2.compute.amazonaws.com/" # EC2 URL
 url: "https://sureshsajja.github.io/" # Github URL
@@ -17,3 +16,11 @@ url: "https://sureshsajja.github.io/" # Github URL
 markdown: kramdown
 host: 0.0.0.0
 port: 80
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+sass:
+  sass_dir: _sass
+  style: compressed
