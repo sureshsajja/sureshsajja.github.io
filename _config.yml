@@ -9,8 +9,8 @@ owner:
  github	: sureshsajja		
 
 
-#url: "http://ec2-52-32-183-180.us-west-2.compute.amazonaws.com/" # EC2 URL
-url: "https://sureshsajja.github.io" # Github URL
+url: "http://ec2-52-32-183-180.us-west-2.compute.amazonaws.com" # EC2 URL
+#url: "https://sureshsajja.github.io" # Github URL
 
 # Build settings
 markdown: kramdown
