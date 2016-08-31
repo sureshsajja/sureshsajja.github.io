@@ -3,7 +3,7 @@ description	: Keep Learning.. Cheers!!!
 
 disqus_shortname: coderevisited-com
 reading_time	: true
-words_per_minute: 200
+words_per_minute: 25
 owner:
  name	: Suresh Sajja
  avatar	: suresh.jpg
@@ -13,7 +13,8 @@ owner:
 
 
 #url: "http://ec2-52-32-183-180.us-west-2.compute.amazonaws.com" # EC2 URL
-url: "https://sureshsajja.github.io" # Github URL
+#url: "https://sureshsajja.github.io" # Github URL
+url: "http://coderevisited.com" #CodeRevisited URL
 #url: "http://localhost" #localhost
 
 # Build settings
