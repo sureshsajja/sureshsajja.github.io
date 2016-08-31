@@ -11,6 +11,7 @@ owner:
 
 #url: "http://ec2-52-32-183-180.us-west-2.compute.amazonaws.com" # EC2 URL
 url: "https://sureshsajja.github.io" # Github URL
+#url: "http://localhost" #localhost
 
 # Build settings
 markdown: kramdown
@@ -24,3 +25,39 @@ gems:
 sass:
   sass_dir: _sass
   style: compressed
+
+paginate: 5
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
