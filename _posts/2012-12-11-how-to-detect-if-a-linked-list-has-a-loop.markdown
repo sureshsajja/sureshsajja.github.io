@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2012-12-11 07:10:44+00:00
 layout: post
-link: http://coderevisited.com/how-to-detect-if-a-linked-list-has-a-loop/
+#link: http://coderevisited.com/how-to-detect-if-a-linked-list-has-a-loop/
 slug: how-to-detect-if-a-linked-list-has-a-loop
 title: How to detect if a linked list has a loop?
 wordpress_id: 287

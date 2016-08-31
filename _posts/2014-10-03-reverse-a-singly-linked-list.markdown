@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2014-10-03 19:23:52+00:00
 layout: post
-link: http://coderevisited.com/reverse-a-singly-linked-list/
+#link: http://coderevisited.com/reverse-a-singly-linked-list/
 slug: reverse-a-singly-linked-list
 title: Reverse a singly linked list
 wordpress_id: 547

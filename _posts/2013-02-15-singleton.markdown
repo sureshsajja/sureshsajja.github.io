@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-02-15 04:55:07+00:00
 layout: post
-link: http://coderevisited.com/singleton/
+#link: http://coderevisited.com/singleton/
 slug: singleton
 title: Singleton
 wordpress_id: 364

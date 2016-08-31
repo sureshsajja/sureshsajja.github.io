@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-01-07 05:23:21+00:00
 layout: post
-link: http://coderevisited.com/linux-distribution-version/
+#link: http://coderevisited.com/linux-distribution-version/
 slug: linux-distribution-version
 title: 'Linux Tip #1 - Find Linux/Unix distribution version'
 wordpress_id: 353

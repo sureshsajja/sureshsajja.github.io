@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2012-09-13 11:45:35+00:00
 layout: post
-link: http://coderevisited.com/2-sum-problem/
+#link: http://coderevisited.com/2-sum-problem/
 slug: 2-sum-problem
 title: 2-SUM Problem
 wordpress_id: 120

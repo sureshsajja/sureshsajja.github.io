@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2012-07-07 15:25:36+00:00
 layout: post
-link: http://coderevisited.com/selection-sort/
+#link: http://coderevisited.com/selection-sort/
 slug: selection-sort
 title: Selection Sort
 wordpress_id: 9

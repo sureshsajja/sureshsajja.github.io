@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2012-07-19 18:22:19+00:00
 layout: post
-link: http://coderevisited.com/counting-inversions/
+#link: http://coderevisited.com/counting-inversions/
 slug: counting-inversions
 title: Counting inversions
 wordpress_id: 92

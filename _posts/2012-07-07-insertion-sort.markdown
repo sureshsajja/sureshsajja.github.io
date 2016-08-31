@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2012-07-07 16:47:12+00:00
 layout: post
-link: http://coderevisited.com/insertion-sort/
+#link: http://coderevisited.com/insertion-sort/
 slug: insertion-sort
 title: Insertion Sort
 wordpress_id: 27

@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-02-26 18:32:39+00:00
 layout: post
-link: http://coderevisited.com/readwritelock-in-java/
+#link: http://coderevisited.com/readwritelock-in-java/
 slug: readwritelock-in-java
 title: ReadWriteLock in Java
 wordpress_id: 409

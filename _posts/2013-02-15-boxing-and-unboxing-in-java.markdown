@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-02-15 14:04:25+00:00
 layout: post
-link: http://coderevisited.com/boxing-and-unboxing-in-java/
+#link: http://coderevisited.com/boxing-and-unboxing-in-java/
 slug: boxing-and-unboxing-in-java
 title: Boxing and Unboxing in Java
 wordpress_id: 325

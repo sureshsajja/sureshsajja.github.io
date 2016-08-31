@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2014-10-03 20:40:05+00:00
 layout: post
-link: http://coderevisited.com/reverse-every-k-nodes-of-a-linked-list/
+#link: http://coderevisited.com/reverse-every-k-nodes-of-a-linked-list/
 slug: reverse-every-k-nodes-of-a-linked-list
 title: Reverse every k nodes of a linked list
 wordpress_id: 551

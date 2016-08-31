@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2012-12-03 15:12:11+00:00
 layout: post
-link: http://coderevisited.com/serialization-in-java/
+#link: http://coderevisited.com/serialization-in-java/
 slug: serialization-in-java
 title: Serialization in Java - Part 1
 wordpress_id: 191

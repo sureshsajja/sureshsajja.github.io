@@ -1,9 +1,9 @@
----
+---i
 author: sureshsajja
 comments: true
 date: 2013-12-12 09:52:24+00:00
 layout: post
-link: http://coderevisited.com/beginning-jpa-2-0/
+#link: http://coderevisited.com/beginning-jpa-2-0/
 slug: beginning-jpa-2-0
 title: Beginning with JPA 2.0
 wordpress_id: 454

@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-02-24 07:17:06+00:00
 layout: post
-link: http://coderevisited.com/thread-pool-in-java/
+#link: http://coderevisited.com/thread-pool-in-java/
 slug: thread-pool-in-java
 title: Thread Pool in Java
 wordpress_id: 398

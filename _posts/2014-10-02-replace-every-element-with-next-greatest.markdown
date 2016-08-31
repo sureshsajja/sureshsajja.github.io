@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2014-10-02 15:06:41+00:00
 layout: post
-link: http://coderevisited.com/replace-every-element-with-next-greatest/
+#link: http://coderevisited.com/replace-every-element-with-next-greatest/
 slug: replace-every-element-with-next-greatest
 title: Replace Every Element With Next Greatest
 wordpress_id: 503

@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-03-01 21:32:29+00:00
 layout: post
-link: http://coderevisited.com/infix-expression-to-postfix-expression/
+#link: http://coderevisited.com/infix-expression-to-postfix-expression/
 slug: infix-expression-to-postfix-expression
 title: Infix expression to Postfix expression
 wordpress_id: 424

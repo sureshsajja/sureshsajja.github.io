@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2012-07-13 14:30:18+00:00
 layout: post
-link: http://coderevisited.com/merge-sort/
+#link: http://coderevisited.com/merge-sort/
 slug: merge-sort
 title: Merge sort
 wordpress_id: 65

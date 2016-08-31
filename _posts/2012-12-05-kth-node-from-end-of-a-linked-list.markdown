@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2012-12-05 01:37:12+00:00
 layout: post
-link: http://coderevisited.com/kth-node-from-end-of-a-linked-list/
+#link: http://coderevisited.com/kth-node-from-end-of-a-linked-list/
 slug: kth-node-from-end-of-a-linked-list
 title: How to find kth node from end of a linked list?
 wordpress_id: 276

@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-01-06 13:38:49+00:00
 layout: post
-link: http://coderevisited.com/hadoop-cluster/
+#link: http://coderevisited.com/hadoop-cluster/
 slug: hadoop-cluster
 title: Setup Hadoop cluster on Amazon EC2 using Apache Whirr
 wordpress_id: 335

@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-12-18 06:58:09+00:00
 layout: post
-link: http://coderevisited.com/beginng-with-spring-data-jpa/
+#link: http://coderevisited.com/beginng-with-spring-data-jpa/
 slug: beginng-with-spring-data-jpa
 title: 'Beginning with Spring Data JPA '
 wordpress_id: 467

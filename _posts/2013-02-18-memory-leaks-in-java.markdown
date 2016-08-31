@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-02-18 12:47:59+00:00
 layout: post
-link: http://coderevisited.com/memory-leaks-in-java/
+#link: http://coderevisited.com/memory-leaks-in-java/
 slug: memory-leaks-in-java
 title: Memory leaks in Java
 wordpress_id: 386

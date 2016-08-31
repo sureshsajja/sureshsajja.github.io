@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2012-11-30 02:01:17+00:00
 layout: post
-link: http://coderevisited.com/cloneable-interface-in-java/
+#link: http://coderevisited.com/cloneable-interface-in-java/
 slug: cloneable-interface-in-java
 title: Cloneable Interface in Java
 wordpress_id: 152

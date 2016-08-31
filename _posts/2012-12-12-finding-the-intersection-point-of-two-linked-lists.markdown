@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2012-12-12 00:11:41+00:00
 layout: post
-link: http://coderevisited.com/finding-the-intersection-point-of-two-linked-lists/
+#link: http://coderevisited.com/finding-the-intersection-point-of-two-linked-lists/
 slug: finding-the-intersection-point-of-two-linked-lists
 title: Finding the intersection point of two linked lists
 wordpress_id: 318

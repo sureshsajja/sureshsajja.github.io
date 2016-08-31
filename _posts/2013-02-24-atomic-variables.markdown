@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-02-24 18:21:27+00:00
 layout: post
-link: http://coderevisited.com/atomic-variables/
+#link: http://coderevisited.com/atomic-variables/
 slug: atomic-variables
 title: Atomic variables
 wordpress_id: 406

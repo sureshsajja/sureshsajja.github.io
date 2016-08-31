@@ -3,7 +3,7 @@ author: sureshsajja
 comments: true
 date: 2013-02-27 05:44:01+00:00
 layout: post
-link: http://coderevisited.com/arrays-of-generic-types/
+#link: http://coderevisited.com/arrays-of-generic-types/
 slug: arrays-of-generic-types
 title: Arrays of Generic types
 wordpress_id: 412
