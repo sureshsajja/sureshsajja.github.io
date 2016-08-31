@@ -1,6 +1,9 @@
 title		: CodeRevisited
 description	: Keep Learning.. Cheers!!!
 
+disqus_shortname: coderevisited-com
+reading_time	: true
+words_per_minute: 200
 owner:
  name	: Suresh Sajja
  avatar	: suresh.jpg
