@@ -10,6 +10,8 @@ wordpress_id: 120
 categories:
 - Algorithms
 - Interview
+image:
+  feature: abstract-1.jpg
 ---
 
 ## Problem

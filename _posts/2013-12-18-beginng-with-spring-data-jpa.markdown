@@ -9,6 +9,8 @@ title: 'Beginning with Spring Data JPA '
 wordpress_id: 467
 categories:
 - Java
+image:
+  feature: abstract-1.jpg
 ---
 
 In my [previous post](http://coderevisited.com/beginning-jpa-2-0/), I briefly wrote about JPA, a Java specification for accessing, persisting, and managing data between Java objects / classes and a relational database. In this post, I will talk about Spring Data JPA with a simple example.

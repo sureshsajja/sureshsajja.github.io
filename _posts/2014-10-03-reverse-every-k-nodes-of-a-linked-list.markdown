@@ -9,6 +9,8 @@ title: Reverse every k nodes of a linked list
 wordpress_id: 551
 categories:
 - Java
+image:
+  feature: abstract-1.jpg
 ---
 
 ## Problem

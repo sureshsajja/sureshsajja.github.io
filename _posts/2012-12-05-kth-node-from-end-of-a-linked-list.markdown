@@ -13,6 +13,8 @@ categories:
 - Java
 tags:
 - Linked list
+image:
+  feature: abstract-1.jpg
 ---
 
 ### kth node from end of a linked list

@@ -12,6 +12,8 @@ categories:
 tags:
 - Selection sort
 - sorting
+image:
+  feature: abstract-1.jpg
 ---
 
 Selection sort is an in-place comparison sort with O(n^2) time complexity. It's not stable sort.

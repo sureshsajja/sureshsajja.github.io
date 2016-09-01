@@ -13,6 +13,8 @@ categories:
 tags:
 - java
 - JPA
+image:
+  feature: abstract-1.jpg
 ---
 
 The Java Persistence Architecture API (JPA) is a Java specification for accessing, persisting, and managing data between Java objects / classes and a relational database. JPA allows POJO (Plain Old Java Objects) to be easily persisted. JPA allows an object’s object-relational mappings to be defined through standard annotations or XML defining how the Java class maps to a relational database table.

@@ -9,6 +9,8 @@ title: Infix expression to Postfix expression
 wordpress_id: 424
 categories:
 - Java
+image:
+  feature: abstract-1.jpg
 ---
 
 This post shows sample implementations for

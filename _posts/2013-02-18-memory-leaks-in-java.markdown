@@ -9,6 +9,8 @@ title: Memory leaks in Java
 wordpress_id: 386
 categories:
 - Java
+image:
+  feature: abstract-1.jpg
 ---
 
 A memory leak occurs when memory acquired by a program for execution is never freed-up to be used by other programs and applications. 

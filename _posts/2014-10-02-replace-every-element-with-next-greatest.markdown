@@ -10,6 +10,8 @@ wordpress_id: 503
 categories:
 - Algorithms
 - Java
+image:
+  feature: abstract-1.jpg
 ---
 
 ## Problem: Replace Every Element With Next Greatest

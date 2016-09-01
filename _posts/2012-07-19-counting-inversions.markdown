@@ -9,6 +9,8 @@ title: Counting inversions
 wordpress_id: 92
 categories:
 - Algorithms
+image:
+  feature: abstract-1.jpg
 ---
 
 An inversion is a pair of keys that are out of order in the array.

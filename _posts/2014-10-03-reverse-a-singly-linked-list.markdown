@@ -10,6 +10,8 @@ wordpress_id: 547
 categories:
 - Algorithms
 - Java
+image:
+  feature: abstract-1.jpg
 ---
 
 Reverse a singly linked list is one of the most commonly asked data structures interview questions

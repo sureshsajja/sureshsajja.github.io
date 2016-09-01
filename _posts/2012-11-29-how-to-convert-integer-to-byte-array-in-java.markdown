@@ -9,6 +9,8 @@ title: ' How to convert integer to byte array in java'
 wordpress_id: 140
 categories:
 - Algorithms
+image:
+  feature: abstract-1.jpg
 ---
 
 This post demonstrates how to convert integer to byte array in java and to convert byte array to integer. It shows low level and high level byte operations.

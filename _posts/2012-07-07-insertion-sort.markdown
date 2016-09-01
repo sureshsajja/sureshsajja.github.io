@@ -12,6 +12,8 @@ categories:
 tags:
 - Insertion sort
 - sorting
+image:
+  feature: abstract-1.jpg
 ---
 
 Insertion sort builds sorted array one item at a time. Though it is less efficient on large data inputs, it has it's own advantages.

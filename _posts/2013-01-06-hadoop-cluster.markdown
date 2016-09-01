@@ -12,6 +12,8 @@ categories:
 tags:
 - Hadoop
 - Whirr
+image:
+  feature: abstract-1.jpg
 ---
 
 **Hadoop cluster**
