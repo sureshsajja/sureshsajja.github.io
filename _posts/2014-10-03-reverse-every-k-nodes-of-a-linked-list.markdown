@@ -5,7 +5,7 @@ date: 2014-10-03 20:40:05+00:00
 layout: post
 slug: reverse-every-k-nodes-of-a-linked-list
 title: Reverse every k nodes of a linked list
-wordpress_id: 551
+description: Function to reverse every k nodes of a linked list
 categories:
 - Java
 image:
@@ -13,20 +13,15 @@ image:
 ---
 
 ## Problem
-
-
 Write a function to reverse every k nodes of a linked list (k is the input to the function)
 
 
 ### Example:
-
-
-Given linked list is 1->2->3->4->5->6->7->8>9, 
-Input: K = 3
-Output: 3->2->1->6->5->4->9->8->7
-Input: K = 5
-Output: 5->4->3->2->1->9->8->7->6
-
+Given linked list is 1->2->3->4->5->6->7->8>9  
+Input: K = 3  
+Output: 3->2->1->6->5->4->9->8->7  
+Input: K = 5  
+Output: 5->4->3->2->1->9->8->7->6  
 
 
 ## Iterative Solution
@@ -72,16 +67,7 @@ public static SinglyLinkedListNode reverseKNodes(SinglyLinkedListNode head, int 
 
 ```
  
- 
-
-
-
-
-
-
-
 ## Recursive Solution
-
 
 ```
 public static SinglyLinkedListNode reverseKNodesRecursive(SinglyLinkedListNode head, int k)
@@ -109,9 +95,6 @@ public static SinglyLinkedListNode reverseKNodesRecursive(SinglyLinkedListNode h
     }
 ```
  
-
-
-
 
 
 Check [here](https://github.com/sureshsajja/CodeRevisited/blob/master/src/com/coderevisited/linkedlists/singly/ReverseKNodesAsGroup.java) for complete code.
