@@ -12,8 +12,6 @@ categories:
 tags:
 - merge sort
 - sorting
-image:
-  feature: abstract-1.jpg
 ---
 
 Merge sort is based in an algorithmic design pattern called **divide and conquer**.  Most implementations produce a stable sort, keeps relative order of elements with equal keys.

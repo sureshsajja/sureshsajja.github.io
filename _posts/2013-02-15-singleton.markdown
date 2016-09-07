@@ -10,8 +10,6 @@ wordpress_id: 364
 categories:
 - Interview
 - Java
-image:
-  feature: abstract-1.jpg
 ---
 
 ## What is singleton?

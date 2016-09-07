@@ -9,8 +9,6 @@ title: Arrays of Generic types
 wordpress_id: 412
 categories:
 - Java
-image:
-  feature: abstract-1.jpg
 ---
 
 This post examines differences between arrays and generics and finds out how we can create arrays of generic types in Java.

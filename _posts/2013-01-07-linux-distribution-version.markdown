@@ -11,8 +11,6 @@ categories:
 - Linux
 tags:
 - Linux
-image:
-  feature: abstract-1.jpg
 ---
 
 **Linux Tip #1**

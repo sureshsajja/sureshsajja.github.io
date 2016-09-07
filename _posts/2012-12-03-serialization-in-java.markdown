@@ -12,8 +12,6 @@ categories:
 tags:
 - java
 - Serialization
-image:
-  feature: abstract-1.jpg
 ---
 
 object serialization is the process of encoding objects as byte streams ( known as serializing or deflating or marshalling an object) and reconstructing objects from their byte-stream encoding (known as deserializing or inflating or unmarshalling the object). Once an object has been serialized, its encoding can be stored in a disk, or transmitted over network for later deserialization.

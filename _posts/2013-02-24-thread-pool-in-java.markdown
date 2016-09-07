@@ -9,8 +9,6 @@ title: Thread Pool in Java
 wordpress_id: 398
 categories:
 - Java
-image:
-  feature: abstract-1.jpg
 ---
 
 This post will talk about high level overview of Thread pools in Java and how they can be created. It also shows one sample implementation (not production quality) to demonstrate Thread pool in java. 

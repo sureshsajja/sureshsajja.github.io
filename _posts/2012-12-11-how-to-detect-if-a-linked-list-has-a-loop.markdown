@@ -13,8 +13,6 @@ categories:
 - Java
 tags:
 - Linked list
-image:
-  feature: abstract-1.jpg
 ---
 
 ### Detect if a linked list has a loop

@@ -12,8 +12,6 @@ categories:
 tags:
 - Cloneable
 - java
-image:
-  feature: abstract-1.jpg
 ---
 
 This post will give some deep insight into Cloneable Interface in Java.

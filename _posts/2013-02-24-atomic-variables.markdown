@@ -9,8 +9,6 @@ title: Atomic variables
 wordpress_id: 406
 categories:
 - Java
-image:
-  feature: abstract-1.jpg
 ---
 
 This post will demonstrate how to code wait-free, lock-free programming using Atomic variable classes that were added to JDK1.5.

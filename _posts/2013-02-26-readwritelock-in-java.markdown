@@ -9,8 +9,6 @@ title: ReadWriteLock in Java
 wordpress_id: 409
 categories:
 - Java
-image:
-  feature: abstract-1.jpg
 ---
 
 The following post demonstrates ReadWriteLock semantics in java

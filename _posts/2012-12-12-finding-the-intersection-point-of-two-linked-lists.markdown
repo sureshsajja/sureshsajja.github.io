@@ -13,8 +13,6 @@ categories:
 - Java
 tags:
 - Linked list
-image:
-  feature: abstract-1.jpg
 ---
 
 ## Finding the intersection point of two linked lists

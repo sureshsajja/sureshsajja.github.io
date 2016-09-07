@@ -1,69 +1,32 @@
-title		: CodeRevisited
-description	: Keep Learning.. Cheers!!!
+gems:
+ - jekyll-paginate
 
-disqus_shortname: coderevisited-com
-reading_time	: true
-words_per_minute: 25
-owner:
- name	: Suresh Sajja
- avatar	: suresh.jpg
- bio	: "Passionate Software Engineer"
- email	: mail@sureshsajja.com
- github	: sureshsajja		
+# Setup
+title:  CodeRevisited
+tagline:             'Keep Learning.. Cheers!'
+description:         'Hello and Welcome to my blog, a blog about techinical learning. If you are looking to learn something new today. You have come to the right place.'
 
+url: "http://ec2-52-32-183-180.us-west-2.compute.amazonaws.com" # EC2 URL
+#url: "https://sureshsajja.github.io/Blog" # Github URL
+#url: "http://coderevisited.com" #CodeRevisited URL
+#url: "http://localhost:4000" #localhost
 
-#url: "http://ec2-52-32-183-180.us-west-2.compute.amazonaws.com" # EC2 URL
-#url: "https://sureshsajja.github.io" # Github URL
-url: "http://coderevisited.com" #CodeRevisited URL
-#url: "http://localhost" #localhost
-
-# Build settings
-markdown: kramdown
 host: 0.0.0.0
 port: 80
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-feed
-sass:
-  sass_dir: _sass
-  style: compressed
 
-paginate: 5
 
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+disqus_shortname: coderevisited-com
 
 permalink:   /:title/
 
-include:
-  - .htaccess
-exclude:
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
-  - node_modules
-  - package.json
-  - spec
-  - tmp
+paginate:            5
+
+# About/contact
+author:
+  name: SureshSajja
+  url:  http://coderevisited.com
+  email:  mail@sureshsajja.com
+
+version: 1
+
+

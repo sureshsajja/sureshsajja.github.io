@@ -9,8 +9,6 @@ title: Boxing and Unboxing in Java
 wordpress_id: 325
 categories:
 - Java
-image:
-  feature: abstract-1.jpg
 ---
 
 In Java programming language, there are eight primitive types and each of these has a corresponding library class of reference type. For example, there is a class java.lang.Integer that corresponds to primitive type int. These kinds of classes are called wrappers. The wrapper classes are immutable, we cannot change a wrapped value after the wrapper has been constructed. They are also final, so we cannot subclass them.
