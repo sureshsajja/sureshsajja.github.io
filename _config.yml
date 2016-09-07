@@ -6,7 +6,7 @@ title:  CodeRevisited
 tagline:             'Keep Learning.. Cheers!'
 description:         'Hello and Welcome to my blog, a blog about techinical learning. If you are looking to learn something new today. You have come to the right place.'
 
-url: "http://ec2-52-32-183-180.us-west-2.compute.amazonaws.com" # EC2 URL
+#url: "http://ec2-52-32-183-180.us-west-2.compute.amazonaws.com" # EC2 URL
 #url: "https://sureshsajja.github.io/Blog" # Github URL
 #url: "http://coderevisited.com" #CodeRevisited URL
 #url: "http://localhost:4000" #localhost
