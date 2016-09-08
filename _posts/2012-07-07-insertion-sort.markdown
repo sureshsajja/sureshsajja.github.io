@@ -32,6 +32,7 @@ No of swaps: ~n(n-1)/4
 
 {%gist 2ab1436805d84dcac402918e1b2e0c00 %}
 
+
 ### Variations of insertion sort algorithm
 
 Notice that we have a double test for the inner loop.  
@@ -44,28 +45,7 @@ Notice that we have a double test for the inner loop.
 The first condition is to ensure that we don’t run off the beginning of the array, and the second one is to stop the loop once we reach the correct spot to insert the item. we can avoid an index-out-of-bounds test in the inner loop by first putting the smallest item into position. The item that enables the test to be eliminated is known as a sentinel.  
 **Example Code for sort with sentinel**
  
-
-```java    
-public static void sortWithSentinal(int[] array) {
-   	for (int i = array.length - 1; i > 0; i--) {
-   		if (array[i] < array[i - 1]) {
-   			int temp = array[i];
-   			array[i] = array[i - 1];
-   			array[i - 1] = temp;
-   		}
-   	}
-   
-   	for (int i = 2; i < array.length; i++) {
-   		for (int j = i; array[j] < array[j - 1]; j--) {
-   			int temp = array[j];
-   			array[j] = array[j - 1];
-   			array[j - 1] = temp;
-   		}
-   	}
-}
-
-```
-
+{%gist c686ec92c1031ed407717d40aadb6f1a %}
 
 
 ### Questions
