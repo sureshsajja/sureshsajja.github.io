@@ -30,7 +30,8 @@ No of comparisons: ~n(n-1)/4
 No of swaps: ~n(n-1)/4
 
 **Example Code in Java** 
-```
+
+```java
     public static void sort(int[] array) {
     	for (int i = 1; i < array.length; i++) {
     		for (int j = i; j > 0 && (array[j] < array[j - 1]); j--) {
@@ -43,13 +44,11 @@ No of swaps: ~n(n-1)/4
 ```
 
 
-
-
 ### Variations of insertion sort algorithm
 
 Notice that we have a double test for the inner loop.  
  
-```
+```java
     j > 0 && (array[j] < array[j - 1]
 ```
 
@@ -58,7 +57,7 @@ The first condition is to ensure that we don’t run off the beginning of the ar
 **Example Code for sort with sentinel**
  
 
-```    
+```java    
     public static void sortWithSentinal(int[] array) {
     	for (int i = array.length - 1; i > 0; i--) {
     		if (array[i] < array[i - 1]) {
@@ -83,7 +82,7 @@ The first condition is to ensure that we don’t run off the beginning of the ar
 
 ### Questions
 * Which sort algorithm runs fastest for an array with all keys identical, selection sort or insertion sort?  
-> Insertion sort runs in linear time when all keys are equal.
+ > Insertion sort runs in linear time when all keys are equal.
 
 * Suppose that we use insertion sort on a randomly ordered array where items have only one of three key values. Is the running time linear, quadratic, or something in between?  
-> Quadratic
+ > Quadratic
