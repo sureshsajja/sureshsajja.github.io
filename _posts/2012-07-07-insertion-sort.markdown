@@ -21,9 +21,11 @@ Every repetition of insertion sort removes an element from the input data, inser
 
 ### Analysis of insertion sort
 **Best Case:** Array is already sorted. So no swapping of elements are required. It required n-1 comparisons (condition of inner loop, body never executed)  
+
 **Worst Case:** Array is sorted in reverse order. (So each item has to be moved to the front of the array)
 No of comparisons: 0+1+2+3+......+n-1 = (n-1)(n-2)/2
 No of swaps:n(n-1)/2  
+
 **Average Case**: For randomly ordered arrays
 No of comparisons: ~n(n-1)/4
 No of swaps: ~n(n-1)/4
