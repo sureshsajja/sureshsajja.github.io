@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Insertion Sort
+comments: true
 categories:
 - Algorithms
 tags:
