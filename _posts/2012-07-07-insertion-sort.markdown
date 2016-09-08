@@ -43,6 +43,8 @@ public static void sort(int[] array) {
 ```
 
 
+{%gist aecfa7ad9a7bc98e63a1 %}
+
 ### Variations of insertion sort algorithm
 
 Notice that we have a double test for the inner loop.  
