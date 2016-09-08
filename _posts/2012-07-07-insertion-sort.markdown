@@ -30,8 +30,7 @@ No of comparisons: ~n(n-1)/4
 No of swaps: ~n(n-1)/4
 
 **Example Code in Java** 
-{% highlight java linenos %}
-    
+```
     public static void sort(int[] array) {
     	for (int i = 1; i < array.length; i++) {
     		for (int j = i; j > 0 && (array[j] < array[j - 1]); j--) {
@@ -41,27 +40,25 @@ No of swaps: ~n(n-1)/4
     		}
     	}
     }
-{% endhighlight %}
+```
 
 
 
 
 ### Variations of insertion sort algorithm
 
-
-Notice that we have a double test for the inner loop.
+Notice that we have a double test for the inner loop.  
  
-
-    
+```
     j > 0 && (array[j] < array[j - 1]
+```
 
 
-
-The first condition is to ensure that we don’t run off the beginning of the array, and the second one is to stop the loop once we reach the correct spot to insert the item. we can avoid an index-out-of-bounds test in the inner loop by first putting the smallest item into position. The item that enables the test to be eliminated is known as a sentinel.
+The first condition is to ensure that we don’t run off the beginning of the array, and the second one is to stop the loop once we reach the correct spot to insert the item. we can avoid an index-out-of-bounds test in the inner loop by first putting the smallest item into position. The item that enables the test to be eliminated is known as a sentinel.  
 **Example Code for sort with sentinel**
  
-{% highlight java linenos %}
-    
+
+```    
     public static void sortWithSentinal(int[] array) {
     	for (int i = array.length - 1; i > 0; i--) {
     		if (array[i] < array[i - 1]) {
@@ -80,13 +77,13 @@ The first condition is to ensure that we don’t run off the beginning of the ar
     	}
     }
 
-{% endhighlight %}
+```
 
 
 
 ### Questions
 * Which sort algorithm runs fastest for an array with all keys identical, selection sort or insertion sort?  
-Insertion sort runs in linear time when all keys are equal.
+> Insertion sort runs in linear time when all keys are equal.
 
 * Suppose that we use insertion sort on a randomly ordered array where items have only one of three key values. Is the running time linear, quadratic, or something in between?  
-Quadratic
+> Quadratic
