@@ -30,20 +30,7 @@ No of swaps: ~n(n-1)/4
 
 **Example Code in Java** 
 
-```java
-public static void sort(int[] array) {
-   	for (int i = 1; i < array.length; i++) {
-   		for (int j = i; j > 0 && (array[j] < array[j - 1]); j--) {
-   			int temp = array[j];
-   			array[j] = array[j-1];
-   			array[j-1] = temp;
-   		}
-   	}
-}
-```
-
-
-{%gist aecfa7ad9a7bc98e63a1 %}
+{%gist 2ab1436805d84dcac402918e1b2e0c00 %}
 
 ### Variations of insertion sort algorithm
 
