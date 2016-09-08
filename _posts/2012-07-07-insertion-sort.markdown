@@ -52,5 +52,6 @@ The first condition is to ensure that we don’t run off the beginning of the ar
 * Which sort algorithm runs fastest for an array with all keys identical, selection sort or insertion sort?  
 <div class="message">Insertion sort runs in linear time when all keys are equal.</div>
 
-* Suppose that we use insertion sort on a randomly ordered array where items have only one of three key values. Is the running time linear, quadratic, or something in between?    
+* Suppose that we use insertion sort on a randomly ordered array where items have only one of three key values. Is the running time linear, quadratic, or something in between?  
+    
  > <div class="message">Quadratic</div>
