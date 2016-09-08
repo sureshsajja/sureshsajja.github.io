@@ -20,7 +20,7 @@ Insertion sort builds sorted array one item at a time. Though it is less efficie
 Every repetition of insertion sort removes an element from the input data, inserting it into the correct position in the already-sorted list, until no input elements remain. Sorting is typically done in-place. The resulting array after k iterations has the property where the first k + 1 entries are sorted.
 
 ### Analysis of insertion sort
-**Best Case:** Array is already sorted. So no swapping of elements are required. It required n-1 comparisons (condition of inner loop, body never executed)
+**Best Case:** Array is already sorted. So no swapping of elements are required. It required n-1 comparisons (condition of inner loop, body never executed)  
 **Worst Case:** Array is sorted in reverse order. (So each item has to be moved to the front of the array)
 No of comparisons: 0+1+2+3+......+n-1 = (n-1)(n-2)/2
 No of swaps:n(n-1)/2
@@ -30,8 +30,8 @@ No of comparisons: ~n(n-1)/4
 No of swaps: ~n(n-1)/4
 
 **Example Code in Java** 
-
-    {% highlight java linenos %}
+{% highlight java linenos %}
+    
     public static void sort(int[] array) {
     	for (int i = 1; i < array.length; i++) {
     		for (int j = i; j > 0 && (array[j] < array[j - 1]); j--) {
@@ -85,8 +85,8 @@ The first condition is to ensure that we don’t run off the beginning of the ar
 
 
 ### Questions
-*Which sort algorithm runs fastest for an array with all keys identical, selection sort or insertion sort?
+* Which sort algorithm runs fastest for an array with all keys identical, selection sort or insertion sort?  
 Insertion sort runs in linear time when all keys are equal.
 
-*Suppose that we use insertion sort on a randomly ordered array where items have only one of three key values. Is the running time linear, quadratic, or something in between?
+* Suppose that we use insertion sort on a randomly ordered array where items have only one of three key values. Is the running time linear, quadratic, or something in between?  
 Quadratic
