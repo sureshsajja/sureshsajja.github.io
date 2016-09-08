@@ -24,7 +24,6 @@ Every repetition of insertion sort removes an element from the input data, inser
 **Worst Case:** Array is sorted in reverse order. (So each item has to be moved to the front of the array)
 No of comparisons: 0+1+2+3+......+n-1 = (n-1)(n-2)/2
 No of swaps:n(n-1)/2
-
 **Average Case**: For randomly ordered arrays
 No of comparisons: ~n(n-1)/4
 No of swaps: ~n(n-1)/4
@@ -32,15 +31,15 @@ No of swaps: ~n(n-1)/4
 **Example Code in Java** 
 
 ```java
-    public static void sort(int[] array) {
-    	for (int i = 1; i < array.length; i++) {
-    		for (int j = i; j > 0 && (array[j] < array[j - 1]); j--) {
-    			int temp = array[j];
-    			array[j] = array[j-1];
-    			array[j-1] = temp;
-    		}
-    	}
-    }
+public static void sort(int[] array) {
+   	for (int i = 1; i < array.length; i++) {
+   		for (int j = i; j > 0 && (array[j] < array[j - 1]); j--) {
+   			int temp = array[j];
+   			array[j] = array[j-1];
+   			array[j-1] = temp;
+   		}
+   	}
+}
 ```
 
 
@@ -58,23 +57,23 @@ The first condition is to ensure that we don’t run off the beginning of the ar
  
 
 ```java    
-    public static void sortWithSentinal(int[] array) {
-    	for (int i = array.length - 1; i > 0; i--) {
-    		if (array[i] < array[i - 1]) {
-    			int temp = array[i];
-    			array[i] = array[i - 1];
-    			array[i - 1] = temp;
-    		}
-    	}
-    
-    	for (int i = 2; i < array.length; i++) {
-    		for (int j = i; array[j] < array[j - 1]; j--) {
-    			int temp = array[j];
-    			array[j] = array[j - 1];
-    			array[j - 1] = temp;
-    		}
-    	}
-    }
+public static void sortWithSentinal(int[] array) {
+   	for (int i = array.length - 1; i > 0; i--) {
+   		if (array[i] < array[i - 1]) {
+   			int temp = array[i];
+   			array[i] = array[i - 1];
+   			array[i - 1] = temp;
+   		}
+   	}
+   
+   	for (int i = 2; i < array.length; i++) {
+   		for (int j = i; array[j] < array[j - 1]; j--) {
+   			int temp = array[j];
+   			array[j] = array[j - 1];
+   			array[j - 1] = temp;
+   		}
+   	}
+}
 
 ```
 
@@ -82,7 +81,7 @@ The first condition is to ensure that we don’t run off the beginning of the ar
 
 ### Questions
 * Which sort algorithm runs fastest for an array with all keys identical, selection sort or insertion sort?  
- > Insertion sort runs in linear time when all keys are equal.
+> Insertion sort runs in linear time when all keys are equal.
 
 * Suppose that we use insertion sort on a randomly ordered array where items have only one of three key values. Is the running time linear, quadratic, or something in between?  
- > Quadratic
+> Quadratic
