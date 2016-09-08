@@ -28,7 +28,7 @@ No of swaps:n(n-1)/2
 No of comparisons: ~n(n-1)/4
 No of swaps: ~n(n-1)/4
 
-###Example Code in Java
+### Example Code in Java
 
 {%gist 2ab1436805d84dcac402918e1b2e0c00 %}
 
@@ -43,7 +43,7 @@ Notice that we have a double test for the inner loop.
 
 
 The first condition is to ensure that we don’t run off the beginning of the array, and the second one is to stop the loop once we reach the correct spot to insert the item. we can avoid an index-out-of-bounds test in the inner loop by first putting the smallest item into position. The item that enables the test to be eliminated is known as a sentinel.  
-###Example Code for sort with sentinel
+### Example Code for sort with sentinel
  
 {%gist c686ec92c1031ed407717d40aadb6f1a %}
 
@@ -53,4 +53,4 @@ The first condition is to ensure that we don’t run off the beginning of the ar
 <div class="message">Insertion sort runs in linear time when all keys are equal.</div>
 
 * Suppose that we use insertion sort on a randomly ordered array where items have only one of three key values. Is the running time linear, quadratic, or something in between?  
-<div class="message">Quadratic</div>
+> <div class="message">Quadratic</div>
