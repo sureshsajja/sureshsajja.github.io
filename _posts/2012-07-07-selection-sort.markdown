@@ -26,6 +26,7 @@ In Selection sort, after k passes through the array, the first k elements are in
 
 Total comparisons = \\( (n-1)+(n-2)+(n-3)+ .............+2+1 = (n-1)n/2 \\)
 Total number of exchanges = \\( n \\)
+
 ### Sample code in java for selection sort
  
 {%gist c19a7f6c261773b410525bf2e4102546 %}
@@ -36,4 +37,5 @@ Total number of exchanges = \\( n \\)
  > The average number of exchanges is exactly 1 because there are exactly n exchanges and n items. The maximum number of exchanges is n. 
 
 * A clerk at a shipping company is charged with the task of rearranging a number of large crates in order of the time they are to be shipped out. Thus, the cost of compares is very low (just look at the labels) relative to the cost of exchanges (move the crates). The warehouse is nearly full: there is extra space sufficient to hold any one of the crates, but not two. Which sorting method should the clerk use? (among Selection sort, Insertion sort)
+
  > use selection sort because it minimizes the number of exchanges.
