@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Insertion Sort
+description: Insertion sort in java. Example code of Insertion sort in Java, Best case, worst case, average case analysis of insertion sort 
 comments: true
 categories:
 - Algorithms
 tags:
 - Insertion sort
 - sorting
+author: sureshsajja
 ---
 
 Insertion sort builds sorted array one item at a time. Though it is less efficient on large data inputs, it has it's own advantages.
