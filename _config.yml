@@ -2,6 +2,9 @@ gems:
  - jekyll-paginate
  - jekyll-gist
  - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-feed
+ - jekyll-mentions
 
 # Setup
 title:  CodeRevisited
