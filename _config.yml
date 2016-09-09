@@ -1,15 +1,16 @@
 gems:
  - jekyll-paginate
  - jekyll-gist
+ - jekyll-seo-tag
 
 # Setup
 title:  CodeRevisited
-tagline:             'Keep Learning.. Cheers!'
-description:         'Hello and Welcome to my blog, a blog about techinical learning. If you are looking to learn something new today. You have come to the right place.'
+tagline: 'Keep Learning.. Cheers!'
+description: 'Hello and Welcome to my blog, a blog about techinical learning. If you are looking to learn something new today. You have come to the right place.'
 
 #url: "http://ec2-52-32-183-180.us-west-2.compute.amazonaws.com" # EC2 URL
 #url: "https://sureshsajja.github.io/Blog" # Github URL
-#url: "http://coderevisited.com" #CodeRevisited URL
+url: "http://coderevisited.com" #CodeRevisited URL
 #url: "http://localhost:4000" #localhost
 
 host: 0.0.0.0
@@ -20,7 +21,7 @@ disqus_shortname: coderevisited-com
 
 permalink:   /:title/
 
-paginate:            5
+paginate: 5
 
 # About/contact
 author:
@@ -31,3 +32,7 @@ author:
 github:
   repo: https://github.com/sureshsajja
 
+#twitter:
+#  username: sureshsajja
+
+google_site_verification: MKDbqhQP-JgPXjIm551jPM1xBukM7QixY3zXGkEF0_Q
