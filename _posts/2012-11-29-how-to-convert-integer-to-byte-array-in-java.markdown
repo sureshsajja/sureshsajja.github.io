@@ -1,15 +1,4 @@
 ---
-author: sureshsajja
-comments: true
-date: 2012-11-29 00:44:41+00:00
-layout: post
-#link: http://coderevisited.com/how-to-convert-integer-to-byte-array-in-java/
-slug: how-to-convert-integer-to-byte-array-in-java
-title: How to convert integer to byte array in java'
-wordpress_id: 140
-categories:
-- Algorithms
-
 layout: post
 title: How to convert integer to byte array in java
 description: how to convert integer to byte array in java and to convert byte array to integer
