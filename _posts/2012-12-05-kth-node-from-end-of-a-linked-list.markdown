@@ -23,6 +23,7 @@ But in most of the cases, size of the linked list is not known.
 How do we solve when size of linked list is not known?
 
 **simple and naive approach**  
+
 * Find size of the linked list in the first scan
 * compute N-k th node in the second scan
 
