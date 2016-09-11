@@ -1,4 +1,5 @@
 <!-- Facebook pre load script-->
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -7,17 +8,14 @@
   js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=536840986519268";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-
-
-
-
 </script>
 <!-- Facebook pre load script -->
 
 <div>
     <!-- Google -->
+
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <g:plus action="share" annotation="none"></g:plus>
+    <div class="g-plus" data-action="share" data-annotation="none"></div>
     <!-- Google -->
 
     <!-- Twitter -->
@@ -25,12 +23,13 @@
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     <!-- Twitter -->
 
+
     <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button"
          data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank"
                                                         href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a>
     </div>
 
-    <!-- Facebook alignment -->
+
     <style media="screen" type="text/css">
         .fb_iframe_widget span
         {
@@ -38,6 +37,7 @@
         }
 
     </style>
+
 
     <!-- Facebook alignment -->
 </div>
