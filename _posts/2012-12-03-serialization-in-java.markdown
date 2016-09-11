@@ -28,7 +28,7 @@ Let's take a look at one of the simple usages of serialization
 If Person class doesn't implement Serializable interface and if we try to run SerializationTest,
 we encounter **java.io.NotSerializableException**. See the output as follows.
 
-```   
+```java   
 java.io.NotSerializableException: Person
     at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1164)
     at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1346)
@@ -37,7 +37,7 @@ java.io.NotSerializableException: Person
     at SerializationTest.main(SerializationTest.java:17)
 ```
 
-### **Points to Note**
+### Points to Note
 
 All subtypes of a serializable class are themselves serializable.
 Classes designed for inheritance should rarely implement Serializable, and interfaces should rarely extend it.
