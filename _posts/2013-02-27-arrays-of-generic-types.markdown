@@ -33,7 +33,9 @@ The following program perform the same operations as sated above.
 {% gist 807184f0dcd3301b2f7b04a601b5fee9 %}
 
 
-This program throws compile error. Generics are invariant which means that if B is a subtype of A, List<B> is not subtype of List<A>. And also, Generics are implemented by erasure. This means that they enforce their type constraints only at compile time and discard (or erase) their element type information at runtime. Erasure is what allows generic types to interoperate freely with legacy code that does not use generics.
+This program throws compile error. Generics are invariant which means that if B is a subtype of A, List<B> is not subtype of List<A>.
+ 
+And also, Generics are implemented by erasure. This means that they enforce their type constraints only at compile time and discard (or erase) their element type information at runtime. Erasure is what allows generic types to interoperate freely with legacy code that does not use generics.
 It is preferred to use generic list over arrays because any bugs will be surfaced at compile time.
 
 As a consequence of the fact, arrays are covariant but generics are not, we are not allowed to create array of generic types unless the type argument is an unbounded wildcard.
