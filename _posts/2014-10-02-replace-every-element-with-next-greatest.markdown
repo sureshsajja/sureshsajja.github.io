@@ -14,7 +14,7 @@ author: sureshsajja
 
 Given an array of integers, replace every element with next greatest element.Since there is no element next to the last element, replace it with -1.
 
-In an array of a1 to aN, replace ai with \\( max (ai+1 …. aN) \\) where  \\( 0 < i < N-1 \\) and aN with -1
+In an array of a1 to aN, replace ai with \\( max (ai+1 …. aN) \\) where  \\( 0 < i < N \\) and aN with -1
 
 
 ## Solution
