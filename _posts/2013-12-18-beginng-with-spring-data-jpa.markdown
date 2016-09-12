@@ -8,6 +8,7 @@ categories:
 tags:
 - Spring
 - Java
+- JPA
 author: sureshsajja
 ---
 
