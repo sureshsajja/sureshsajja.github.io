@@ -7,6 +7,7 @@ categories:
 - Algorithms
 tags:
 - Linked List
+- Algorithms
 author: sureshsajja
 ---
 
