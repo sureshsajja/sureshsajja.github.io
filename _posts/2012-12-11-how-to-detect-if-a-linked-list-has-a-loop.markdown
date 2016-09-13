@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to detect if a linked list has a loop?
-description: How to detect if a linked list has a loop?, Java code to detect if a linked list has a loop?
+description: How to detect if a linked list has a loop?, Java code to detect if a linked list has a loop?, loop in a linked list.
 comments: true
 categories:
 - Algorithms
