@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redirect fom Apache HTTP server to Jetty
-description: How to redirect requests from Apache HTTP server to Jetty, Configure virtual host with rewrite rules, redirect with mod_rewrite, mod_proxy, Changing Apache HTTP server port.
+description: How to redirect requests from Apache HTTP server to Jetty, Configure virtual host with rewrite rules, redirect with mod_rewrite, mod_proxy, Changing Apache HTTP server port, Redirect from Apache to tomcat
 comments: true
 categories:
 - Aache HTTP
@@ -11,7 +11,7 @@ tags:
 author: sureshsajja
 ---
 
-This post demonstrates how to redirect requests from apache HTTP server to Jetty.
+This post demonstrates how to redirect requests from apache HTTP server to Jetty. These steps are independent of any application server and can be used for Tomcat.
 
 Real-world websites use apache HTTP server to serve static content because
 
@@ -86,5 +86,8 @@ Using above VirtualHost directive,
 At this point, if you restart Apache HTTP server, it shouldn't be throwing any errors. It should work normal.
 
 When you access `http://localhost:9999/hello` you should be presented with JSON message same as the message when you hit `http://localhost:8080/hello`
+
+Read [here](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) for more about mod_rewrite
+Read [here](http://httpd.apache.org/docs/current/rewrite/intro.html) for more about regular expressions in mod_rewrite
 
 That is it for this post. In the next post I will talk about how to configure SSL to Apache server.
