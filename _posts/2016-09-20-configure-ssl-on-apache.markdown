@@ -49,22 +49,28 @@ For our example, we are going to create our own certificate Authority to generat
 We use OpenSSL to create your own private certificate authority. The process for creating your own certificate authority
 
 * Create a private key
+
 ```
 openssl genrsa -des3 -out rootCA.key 2048
 ```
+
 By using above command, we can generate private key with 2048 bit long. This is the basis of all trust for your certificates. Please keep the password safe, and if someone gets a hold of it, they can generate certificates that your browser will accept
 
 * Self-sign
+
 ```
 openssl req -x509 -new -nodes -key rootCA.key -sha256 -days 1024 -out rootCA.pem
 ```
+
 This will ask for various information. Once done, this will create an SSL certificate called rootCA.pem, signed by itself, valid for 1024 days, and it will act as our root certificate.
 The interesting thing about traditional certificate authorities is that root certificate is also self-signed.
+
 [![Self Sign](/images/SelfSign.jpg)
 
 * Install root CA on your various workstations
 In Windows machine, Go to IE, Internet Options, go to the Content tab, then hit the Certificates button. This will take you to the the Windows certificate repository.
 Import the rootCA.pem (not the key) under the Trusted Root Certificate Authorities tab.
+
 [![Certificate Import](/images/CertImport.jpg)
 
 From above three steps, we have root certificate authority is ready and installed in our browser. Now we are going to create SSL certificate for our Apache HTTP Server 
@@ -72,25 +78,33 @@ From above three steps, we have root certificate authority is ready and installe
 ### Create Server Certificate
 
 * Create a private key
+
 ```
 openssl genrsa -out server.key 2048
 ```
+
 Creates private key for server
 
 * certificate signing request
+
 ```
 openssl req -new -key server.key -out server.csr
 ```
+
 You’ll be asked various questions (Country, State/Province, etc.). Answer them how you see fit. The important question to answer though is common-name.
+
 ```
 Common Name (e.g. server FQDN or YOUR name) []:localhost
 ```
+
 Whatever you see in the address field in your browser when you go to your device must be what you put under common name, even if it’s an IP address.  Yes, even an IP (IPv4 or IPv6) address works under common name. If it doesn’t match, even a properly signed certificate will not validate correctly and you’ll get the “cannot verify authenticity” error.
 
 Once CSR is ready, we need rootCA.key to sign this CSR
+
 ```
 openssl x509 -req -in server.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out server.crt -days 500 -sha256
 ```
+
 This creates a signed certificate called device.crt which is valid for 500 days
 
 #### Note on CAcreateserial
@@ -108,18 +122,24 @@ And we can have an idea of the number of certificate created by a CA.
 * Uncomment `LoadModule socache_shmcb_module modules/mod_socache_shmcb.so` This is required by SSL session cache.
 * Uncomment `Include conf/extra/httpd-ssl.conf` to include SSL conf
 * In `httpd-ssl.conf` file, set Server Name same as Common Name given in CSR
+
 ```
 ServerName localhost:443
 ```
+
 * Copy server.crt, server.key to conf directory of Apache
 * Specify server.crt path against `SSLCertificateFile` in `httpd-ssl.conf`
+
 ```
 SSLCertificateFile "c:/Apache24/conf/server.crt"
 ```
+
 * Specify server.key path against `SSLCertificateKeyFile` in `httpd-ssl.conf`
+
 ```
 SSLCertificateKeyFile "c:/Apache24/conf/server.key"
 ```
+
 * Restart Apache Server. Our server is SSL ready.
 
 ### FAQ
