@@ -144,7 +144,8 @@ SSLCertificateKeyFile "c:/Apache24/conf/server.key"
 
 If wanted to redirect request to any underlying services, we can add the required Rewrite rules in `httpd-ssl.conf` before `</VirtualHost>`
 
-Refer to my [previous post]() where i discussed about redirection from Apache Server to Jetty service. Using the same example, we have to the following rules in `httpd-ssl.conf`
+Refer to my [previous post](http://coderevisited.com/redirect-from-apache-http-server-to-jetty/) where i discussed about redirection from Apache Server to Jetty service. Using the same example, we have to the following rules in `httpd-ssl.conf`
+
 ```
 RewriteEngine On
 RewriteRule ^/hello http://localhost:8080/hello [P]
