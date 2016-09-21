@@ -35,7 +35,9 @@ From a high-level point of view, the process of authenticating and establishing 
 * The server verifies the client’s credentials based on the configured certificate authority. 
 * If successful, the server grants access to the protected resource requested by the client.
 
-![Mutual SSL](http://www.codeproject.com/KB/IP/326574/mutualssl.png)
+![Mutual SSL](/images/mutualssl.png)
+
+> Original [source](http://www.codeproject.com/KB/IP/326574/mutualssl.png) of image
 
 Assuming that our service is ready to accept client requests over SSL. It has been discussed [here](http://coderevisited.com/configure-ssl-on-apache/)
 
@@ -64,8 +66,7 @@ We use the root certificate authority created [here](http://coderevisited.com/co
 * Signing CSR
 
 ```
-openssl x509 -req -in client.csr -CA rootCA.pem -CAkey rootCA.key -CAserial rootCA.srl -out client.crt -
-days 500 -sha256
+openssl x509 -req -in client.csr -CA rootCA.pem -CAkey rootCA.key -CAserial rootCA.srl -out client.crt -days 500 -sha256
 ```
 
 ![CSR Sign](/images/ClientSign.jpg)
@@ -101,7 +102,17 @@ If we select appropriate certificate, we get response from the service.
 
 ![Certificate Select](/images/CertSelect.jpg)
 
-We can on board as many clients we wanted this way. But what if client wants to use their own certificates. How can server accommodate this? We will see next.
+We can onboard as many clients we wanted by generating client certificates using our root CA. 
+
+But, what if client wants to use their own certificates. How can server accommodate this? Alternatively, we should understand how to handle multiple CAs for validating end user Client Certificates.
+
+There are two approaches through which we can achieve this.
+
+1. combining root CAs into one big file and specifying it as `SSLCACertificateFile` This approach is preferable if we have very less number of root CAs to manage.
+2. Placing root CAs into a directory and generating hash symlinks. This directory should be specified against `SSLCACertificatePath`
+
+Read [here](https://blog.g3rt.nl/client-certificate-authentication-apache.html) for more information on second approach.
+
 
 ### References
 
