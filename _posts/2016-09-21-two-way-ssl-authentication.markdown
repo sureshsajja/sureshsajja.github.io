@@ -39,7 +39,7 @@ From a high-level point of view, the process of authenticating and establishing 
 
 Assuming that our service is ready to accept client requests over SSL. It has been discussed [here](http://coderevisited.com/configure-ssl-on-apache/)
 
-We will see how to generate how to create client certificate and configure server to accept requests based on client authetication.
+We will see how to create client certificate and configure server to accept requests based on client authetication.
 
 ### Creating client certificate
 
@@ -81,7 +81,22 @@ openssl pkcs12 -export -in client.crt -inkey client.key -out client.p12
 In Windows machine, Go to IE, Internet Options, go to the Content tab, then hit the Certificates button. This will take you to the the Windows certificate repository.
 Import the rootCA.pem (not the key) under Personal.
 
-After certificate import, if we hit our service running at `https://localhost/hello`, browser will shows us list of available certificates for use.
+### Server Side Configuration
+
+* In `httpd-ssl.conf` uncomment
+ 
+```
+SSLVerifyClient require
+SSLVerifyDepth  10
+```
+
+* Uncomment and set CA root certificate file path against
+
+```
+SSLCACertificateFile "c:/Apache24/conf/rootCA.pem"
+```
+
+Restart Apache Server, if we hit our service running at `https://localhost/hello`, browser will shows us list of available certificates for use.
 If we select appropriate certificate, we get response from the service.
 
 ![Certificate Select](/images/CertSelect.jpg)
@@ -90,4 +105,4 @@ We can on board as many clients we wanted this way. But what if client wants to 
 
 ### References
 
-http://www.codeproject.com/Articles/326574/An-Introduction-to-Mutual-SSL-Authentication
+[An-Introduction-to-Mutual-SSL-Authentication](ttp://www.codeproject.com/Articles/326574/An-Introduction-to-Mutual-SSL-Authentication)
