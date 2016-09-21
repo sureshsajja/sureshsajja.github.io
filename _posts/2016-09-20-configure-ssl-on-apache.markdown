@@ -65,13 +65,13 @@ openssl req -x509 -new -nodes -key rootCA.key -sha256 -days 1024 -out rootCA.pem
 This will ask for various information. Once done, this will create an SSL certificate called rootCA.pem, signed by itself, valid for 1024 days, and it will act as our root certificate.
 The interesting thing about traditional certificate authorities is that root certificate is also self-signed.
 
-[![Self Sign](/images/SelfSign.jpg)
+![Self Sign](/images/SelfSign.jpg)
 
 * Install root CA on your various workstations
 In Windows machine, Go to IE, Internet Options, go to the Content tab, then hit the Certificates button. This will take you to the the Windows certificate repository.
 Import the rootCA.pem (not the key) under the Trusted Root Certificate Authorities tab.
 
-[![Certificate Import](/images/CertImport.jpg)
+![Certificate Import](/images/CertImport.jpg)
 
 From above three steps, we have root certificate authority is ready and installed in our browser. Now we are going to create SSL certificate for our Apache HTTP Server 
 

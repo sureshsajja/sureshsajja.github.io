@@ -35,7 +35,7 @@ From a high-level point of view, the process of authenticating and establishing 
 * The server verifies the client’s credentials based on the configured certificate authority. 
 * If successful, the server grants access to the protected resource requested by the client.
 
-[![Mutual SSL](http://www.codeproject.com/KB/IP/326574/mutualssl.png)
+![Mutual SSL](http://www.codeproject.com/KB/IP/326574/mutualssl.png)
 
 Assuming that our service is ready to accept client requests over SSL. It has been discussed [here](http://coderevisited.com/configure-ssl-on-apache/)
 
@@ -57,7 +57,7 @@ openssl genrsa -out client.key 2048
 openssl req -new -key client.key -out client.csr
 ```
 
-[![Client CSR](/images/ClientCSR.jpg)
+![Client CSR](/images/ClientCSR.jpg)
 
 We use the root certificate authority created [here](http://coderevisited.com/configure-ssl-on-apache/) to generate Client certificates.
 
@@ -68,7 +68,7 @@ openssl x509 -req -in client.csr -CA rootCA.pem -CAkey rootCA.key -CAserial root
 days 500 -sha256
 ```
 
-[![CSR Sign](/images/ClientSign.jpg)
+![CSR Sign](/images/ClientSign.jpg)
 
 client.crt will be sent to client. Client will use this and generate pkcs12 for use within a browser
 
@@ -84,7 +84,7 @@ Import the rootCA.pem (not the key) under Personal.
 After certificate import, if we hit our service running at `https://localhost/hello`, browser will shows us list of available certificates for use.
 If we select appropriate certificate, we get response from the service.
 
-[![Certificate Select](/images/CertSelect.jpg)
+![Certificate Select](/images/CertSelect.jpg)
 
 We can on board as many clients we wanted this way. But what if client wants to use their own certificates. How can server accommodate this? We will see next.
 

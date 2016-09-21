@@ -65,7 +65,7 @@ In the following code, Instead of creating a new thread each time, we submit a n
 
 #### Num of threads created when i ran above program in my machine:
 
-[![Num of threads with pool](/images/ThreadPool2.png)
+![Num of threads with pool](/images/ThreadPool2.png)
 
 ### Note
 
